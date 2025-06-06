@@ -1,3 +1,4 @@
+// generates HTML-items to the playlist cards
 console.log("test")
 const loadSongsToHTML = () =>{
     const holder = document.querySelector("#playlist-cards")
@@ -7,25 +8,52 @@ const loadSongsToHTML = () =>{
         holder.appendChild(songItemCard)
     }
 }
+
 document.addEventListener("DOMContentLoaded", () =>{
     loadSongsToHTML()
-     const randomPlaylist = Math.floor(Math.random()*(data.length))
-}) 
-// const modalContent = document.querySelector("modal-content")
+    const randomPlaylist = Math.floor(Math.random()*(data.length))
+
+})
+//function to create playlist cards
 const createCard = (data) => {
     const newPlaylistContainer = document.createElement("div")
-    newPlaylistContainer.className = 'music'
-    console.log("loading",newPlaylistContainer)
+    newPlaylistContainer.className = 'music' //creates a new div with class name, music
+    // console.log("loading",newPlaylistContainer)
+
+    //initiating like and unlike function
     const likeKey = `likes-${data.playListName}`
     const likedKey = `liked-${data.playListName}`
     let likeCount = localStorage.getItem(likeKey)||0
     let alreadyLiked = localStorage.getItem(likedKey) === 'true'
+    
+    //this creates the templates of the playlist cards
         newPlaylistContainer.innerHTML = `
             <img src = "${data.playlistArt}" class = 'playlist-art'>
             <h3 class = 'playlist-name'>${data.playlistName}</h3>
             <h4 class = 'playlist-author'>${data.playlistAuthor}</h4>
             <div class = 'liker'> <span class = 'heart ${alreadyLiked ? "liked" : ""}'>❤️</span> <span class  = "like-count">${likeCount}</span></div>
+            <button class = "deleteBtn">Delete</button>
+            <button class = "edit-btn">Edit</button>
             `
+            //deleting the playlist caards
+            newPlaylistContainer.querySelector(".deleteBtn").addEventListener('click',() =>{
+                newPlaylistContainer.remove()
+                const index = data.findIndex(p => p.playListName === data.playListName);
+                if(index !== -1){
+                    data.splice(index,1)
+                }
+            });
+            //editing the playlist cards
+            newPlaylistContainer.querySelector(".edit-btn").addEventListener('click',() =>{
+                const newName = prompt("Edit Playlist name", data.playListName)
+                const newAuthor = prompt("Edit Author name",data.playlistAuthor)
+
+                if(newName) data.playlistName = newName;
+                if(newAuthor) data.playlistAuthor = newAuthor;
+
+                const newCard = createCard(data)
+                newPlaylistContainer.replaceWith(newCard)
+            })
             newPlaylistContainer.addEventListener('click',event =>{
                 createModal(data)
             })
@@ -49,6 +77,7 @@ const createCard = (data) => {
                 }
                 likeCountElement.textContent = likeCount
             })
+
         return newPlaylistContainer;
 }
 const createModal = (playlist) => {

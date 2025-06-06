@@ -10,27 +10,29 @@ header{
     justify-content: space-around;
     width: 100%;
 }
+nav{
+    cursor: pointer;
+    display: flex;
+    margin: 20px;
+    gap: 6px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: 1s ease-in;
+}
+.featured:hover{
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
+.all:hover{
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+}
 h1{
     font-size: 20px;
     margin-right: 19em;
 }
-nav{
-    display: flex;
-}  
-ul{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    gap: 10px;
-}
-nav ul li{
-    font-weight: 600;
-    font-size: 15px;
-
-}
-/* nav ul li:last-child{
-    color: rgb(41, 144, 218);
-} */
 p{
     color: white;
 }
@@ -75,14 +77,14 @@ h3,h4,p{
    z-index: 1; /* Sit on top */
    top: 0;
    bottom: 0;
-   right: 50px;
-   left: 50px;
+   right: 25%;
+   left: 255;
    align-self: center;
-   width: 100%; /* Full width */
+   justify-content: center;
+   width: 50%; /* Full width */
    height: 50vh; /* Full height */
    overflow: auto; /* Enable scroll if needed */
-   background-color: rgba(0, 0, 0, 0.4); 
-   
+   background-color: #dbd8d8; 
 }
 .modal-content {
    /* background-color: #fefefe; */
@@ -91,6 +93,7 @@ h3,h4,p{
    /* border: 1px solid #888; */
    width: 100%; /* Could be more or less, depending on screen size */
    height: 100%; 
+   color: black;
    display: block;
 }
 .close {
@@ -163,11 +166,29 @@ h3,h4,p{
 }
 .songItem p{
     font-size: 10px;
+    color: black;
 }
 .heart{
     cursor: pointer;
     font-size: 20px;
     transition: color .5s ease;
+}
+#selectedPlaylist{
+   display: block;
+   background-color: grey;
+}
+.featured-art{
+    width: 100px;
+}
+.song{
+    display: block;
+}
+.songArt{
+    width: 100px;
+    height: 100px;
+}
+#creatorIdentification p{
+    color: black;
 }
 @media(max-width: 778px) and (min-width: 626px){
     header{
@@ -185,14 +206,3 @@ h3,h4,p{
         width: 100%;
     }
 }
-/* .heart.liked{
-    color: white;
-}
-.heart:hover{
-    color: white;
-}
-.liked-bar{
-    display: flex;
-    align-items: center;
-    gap: 7px;
-} */

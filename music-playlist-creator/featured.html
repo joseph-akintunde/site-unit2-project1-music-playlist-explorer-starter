@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav></nav>
+        <h1>Music Playlist Explorer</h1>
+        <nav>
+            <a class= "featured" href="featured.html" class="active">Featured</a>
+            <a class = "all" href="index.html">All</a>
+        </nav>
     </header>
+    <section id="selectedPlaylist">
+        <h2>Featured playlist</h2>
+        <div id="contentList">
+            
+        </div>
+    </section>
+    <script src="data/data.js"></script>
+    <script src="featured.js"></script>
 </body>
 </html>

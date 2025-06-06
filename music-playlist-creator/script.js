@@ -1,3 +1,4 @@
+console.log("test")
 const loadSongsToHTML = () =>{
     const holder = document.querySelector("#playlist-cards")
     for (let dat of data){
@@ -8,7 +9,8 @@ const loadSongsToHTML = () =>{
 }
 document.addEventListener("DOMContentLoaded", () =>{
     loadSongsToHTML()
-})
+     const randomPlaylist = Math.floor(Math.random()*(data.length))
+}) 
 // const modalContent = document.querySelector("modal-content")
 const createCard = (data) => {
     const newPlaylistContainer = document.createElement("div")
@@ -30,11 +32,22 @@ const createCard = (data) => {
             const likeElement = newPlaylistContainer.querySelector('.heart')
             likeElement.addEventListener("click",(event) => {
                 event.stopPropagation()
-                if(alreadyLiked) return;
-                likeCount = parseInt(likeCount)+1
+                let liked = localStorage.getItem(likedKey) === "true"
+                 const likeCountElement = newPlaylistContainer.querySelector('.like-count')
+                if(liked){
+                likeCount = Math.max(0,parseInt(likeCount)-1)
+                localStorage.setItem(likeKey,likeCount)
+                localStorage.setItem(likedKey,'false')
+                likeElement.textContent = '🤍'
+                likeElement.classList.remove('liked')
+                }else{
+                likeCount = parseInt(likeCount) + 1
                 localStorage.setItem(likeKey,likeCount)
                 localStorage.setItem(likedKey,'true')
-                const likeCountElement = 
+                likeElement.classList.add("liked")
+                likeElement.textContent = '❤️'
+                }
+                likeCountElement.textContent = likeCount
             })
         return newPlaylistContainer;
 }
@@ -62,6 +75,7 @@ const createModal = (playlist) => {
             <p>${song.Name}</p>
             <p>${song.Author}</p>
             <p>${song.Album}</p>
+             <p>${song.Duration}</p>
             `;
             songsList.appendChild(songItem)
         });
@@ -82,6 +96,7 @@ const createModal = (playlist) => {
 
 }
 const span = document.querySelector(".close")
+console.log(span,"3")
 span.onclick = function() {
     modal.style.display = "none";
 }
@@ -92,13 +107,3 @@ window.onclick = function(event) {
 }
 const modal = document.querySelector("#festivalModal")
 
-// const modal = document.getElementById("festivalModal");
-    // const first = document.createElement("section")
-    // modal.classList.add("modal-content")
-    // const second = document.createElement("div")
-    // modal.classList.add("modal-header")
-    // const third = document.createElement("div")
-    // modal.classList.add("songsList")
-    // const shuffle = document.querySelector("button")
-    // modal.classList.add("shuffle-btn")
-    // modal.style.display = "flex"

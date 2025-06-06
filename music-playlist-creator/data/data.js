@@ -10,19 +10,22 @@ let data = [
             "Image": "img/img.jpeg",
             "Name": "Wokeup",
             "Author": "Kankan",
-            "Album": "Wokeup"
+            "Album": "Wokeup",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "No bap",
             "Author": "Lucki",
-            "Album": "SMD"  
+            "Album": "SMD",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Yeah 3X",
             "Author": "chris brown",
-            "Album": "breezy"
+            "Album": "breezy",
+            "Duration": "4:00"
             }
         ]
 	},
@@ -37,19 +40,22 @@ let data = [
             "Image": "img/img.jpeg",
             "Name": "snooze",
             "Author": "SZA",
-            "Album": "Eye View"
+            "Album": "Eye View",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "cool dune",
             "Author": "Skrillex",
-            "Album": "Electronic"  
+            "Album": "Electronic",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "holy water",
             "Author": "davido",
-            "Album": "5ive"
+            "Album": "5ive",
+            "Duration": "4:00"
             }
         ]
     },
@@ -64,19 +70,22 @@ let data = [
             "Image": "img/img.jpeg",
             "Name": "Good Life",
             "Author": "Ye",
-            "Album": "Graduation"
+            "Album": "Graduation",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Mr Miyagi",
             "Author": "Ye",
-            "Album": "Donda 2"  
+            "Album": "Donda 2",
+            "Duration": "4:00"  
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Joseph",
             "Author": "joeboy",
-            "Album": "greatness"
+            "Album": "greatness",
+            "Duration": "4:00"
             }
         ]
 	},
@@ -90,19 +99,22 @@ let data = [
             "Image": "img/img.jpeg",
             "Name": "happy",
             "Author": "Pharrell",
-            "Album": "IDK"
+            "Album": "IDK",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "sad",
             "Author": "XXXTentacion",
-            "Album": "!"  
+            "Album": "!",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Anything",
             "Author": "davido",
-            "Album": "5ive"
+            "Album": "5ive",
+            "Duration": "4:00"
             }
         ]
 	},
@@ -116,19 +128,22 @@ let data = [
             "Image": "img/img.jpeg",
             "Name": "intro",
             "Author": "davido",
-            "Album": "a good time"
+            "Album": "a good time",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Aprés Minuit",
             "Author": "Wizkid",
-            "Album": "Morayo"  
+            "Album": "Morayo",
+            "Duration": "4:00"  
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Déjame Entrar",
             "Author": "Rauw Alejandro",
-            "Album": "Cosa Nuestra"
+            "Album": "Cosa Nuestra",
+            "Duration": "4:00"
             }
         ]
 	},
@@ -142,19 +157,22 @@ let data = [
             "Image": "img/img.jpeg",
             "Name": "Ballin'",
             "Author": "Mustard",
-            "Album": "Los Angeles"
+            "Album": "Los Angeles",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Oh qué Sera",
             "Author": "Willie Colón",
-            "Album": "Classics"  
+            "Album": "Classics",
+            "Duration": "4:00"  
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Lebron is king",
             "Author": "Joseph",
-            "Album": "In my domain"
+            "Album": "In my domain",
+            "Duration": "4:00"
             }
         ]
     },
@@ -168,19 +186,22 @@ let data = [
             "Image": "img/img.jpeg",
             "Name": "DTMF",
             "Author": "Bad bunny",
-            "Album": "DTMF"
+            "Album": "DTMF",
+            "Duration": "4:00"
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Mundian To bach ke",
             "Author": "Panjabi MC",
-            "Album": "Legalised"  
+            "Album": "Legalised",
+            "Duration": "4:00"  
             },
             {
             "Image": "img/img.jpeg",
             "Name": "Distraction",
             "Author": "Polo G",
-            "Album": "Trapstar"
+            "Album": "Trapstar",
+            "Duration": "4:00"
             }
         ]
     },
@@ -194,19 +215,22 @@ let data = [
             "Image": "img/rauw.jpeg",
             "Name": "Diluvio",
             "Author": "Rauw Alejandro",
-            "Album": "Cosa Nuestra"
+            "Album": "Cosa Nuestra",
+            "Duration": "4:00"
             },
             {
             "Image": "img/Mr._Money_with_the_Vibe.jpg",
             "Name": "Terminator",
             "Author": "Asake",
-            "Album": "Mr Money with the vibe"  
+            "Album": "Mr Money with the vibe",
+            "Duration": "4:00"  
             },
             {
             "Image": "img/Davido_ 5ive.webp",
             "Name": "CFMF",
             "Author": "davido",
-            "Album": "5ive"
+            "Album": "5ive",
+            "Duration": "4:00"
             }
         ]
     }

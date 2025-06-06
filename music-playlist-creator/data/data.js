@@ -4,10 +4,26 @@ let data = [
 		"playlistName": "Late Night Drive",
 		"playlistAuthor": "Melody Haven",
 		"playlistArt": "img/48700121773_3e886b6954_z.jpg",
+
 		"songs": [
-            "deep thoughts",
-            "mind in awe",
-            "happy!"
+             {
+            "Image": "img/img.jpeg",
+            "Name": "Wokeup",
+            "Author": "Kankan",
+            "Album": "Wokeup"
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "No bap",
+            "Author": "Lucki",
+            "Album": "SMD"  
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Yeah 3X",
+            "Author": "chris brown",
+            "Album": "breezy"
+            }
         ]
 	},
     {
@@ -15,10 +31,26 @@ let data = [
 		"playlistName": "Summer '16",
 		"playlistAuthor": "Groove Guardian",
 		"playlistArt": "img/summer16.jpg",
+       
 		"songs": [
-            "snooze",
-            "cool dune",
-            "holy water"
+            {
+            "Image": "img/img.jpeg",
+            "Name": "snooze",
+            "Author": "SZA",
+            "Album": "Eye View"
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "cool dune",
+            "Author": "Skrillex",
+            "Album": "Electronic"  
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "holy water",
+            "Author": "davido",
+            "Album": "5ive"
+            }
         ]
     },
     {
@@ -26,32 +58,78 @@ let data = [
 		"playlistName": "Workout Beats",
 		"playlistAuthor": "harmony Herald",
 		"playlistArt": "img/athlete-training-with-dumbbells-in-gym-screaming-royalty-free-image-722227993-1547756570.jpg",
+       
 		"songs": [
-            "go hard at work",
-            "locked",
-            "feelings"
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Good Life",
+            "Author": "Ye",
+            "Album": "Graduation"
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Mr Miyagi",
+            "Author": "Ye",
+            "Album": "Donda 2"  
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Joseph",
+            "Author": "joeboy",
+            "Album": "greatness"
+            }
         ]
 	},
 	{
 		"playlistID": 4,
 		"playlistName": "Road Trip Anthems",
 		"playlistAuthor": "Playlist Pioneer",
-		"playlistArt": "img/ab67616d0000b2735699d396eb1079421c952bb1.jpeg",
-		"songs": [
-            "this is usa",
-            "distance",
-            "shipping love"
+		"playlistArt": "img/dino-reichmuth-A5rCN8626Ck-unsplash-scaled.jpeg",
+		
+        "songs": [ {
+            "Image": "img/img.jpeg",
+            "Name": "happy",
+            "Author": "Pharrell",
+            "Album": "IDK"
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "sad",
+            "Author": "XXXTentacion",
+            "Album": "!"  
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Anything",
+            "Author": "davido",
+            "Album": "5ive"
+            }
         ]
 	},
 	{
 		"playlistID": 5,
 		"playlistName": "Boss Chick Energy",
 		"playlistAuthor": "Tianna Calafiori",
-		"playlistArt": "img/dino-reichmuth-A5rCN8626Ck-unsplash-scaled.jpeg",
-		"songs": [
-            "Anaconda",
-            "Man Down",
-            "Snake Eyes"
+		"playlistArt": "img/ab67616d0000b2735699d396eb1079421c952bb1.jpeg",
+       
+		"songs": [ {
+            "Image": "img/img.jpeg",
+            "Name": "intro",
+            "Author": "davido",
+            "Album": "a good time"
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Aprés Minuit",
+            "Author": "Wizkid",
+            "Album": "Morayo"  
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Déjame Entrar",
+            "Author": "Rauw Alejandro",
+            "Album": "Cosa Nuestra"
+            }
         ]
 	},
     {
@@ -59,10 +137,25 @@ let data = [
 		"playlistName": "Rainy Nights",
 		"playlistAuthor": "Tommy Edman",
         "playlistArt": "img/heart-shape-on-glass-at-rainy-night-yun-han-xu.jpg",
-		"songs": [
-            "2AM in San Jose",
-            "For a Trophy",
-            "Hall of Fame"
+        
+		"songs": [ {
+            "Image": "img/img.jpeg",
+            "Name": "Ballin'",
+            "Author": "Mustard",
+            "Album": "Los Angeles"
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Oh qué Sera",
+            "Author": "Willie Colón",
+            "Album": "Classics"  
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Lebron is king",
+            "Author": "Joseph",
+            "Album": "In my domain"
+            }
         ]
     },
     {
@@ -70,10 +163,25 @@ let data = [
 		"playlistName": "90's R&B",
 		"playlistAuthor": "Bella Mo",
         "playlistArt": "img/dino-reichmuth-A5rCN8626Ck-unsplash-scaled.jpeg",
-		"songs": [
-            "Amazing",
-            "Beautiful Girl",
-            "Danger"
+       
+		"songs": [ {
+            "Image": "img/img.jpeg",
+            "Name": "DTMF",
+            "Author": "Bad bunny",
+            "Album": "DTMF"
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Mundian To bach ke",
+            "Author": "Panjabi MC",
+            "Album": "Legalised"  
+            },
+            {
+            "Image": "img/img.jpeg",
+            "Name": "Distraction",
+            "Author": "Polo G",
+            "Album": "Trapstar"
+            }
         ]
     },
     {
@@ -81,10 +189,25 @@ let data = [
 		"playlistName": "San Francisco",
 		"playlistAuthor": "Raúl Jiménez",
 		"playlistArt": "img/heart-shape-on-glass-at-rainy-night-yun-han-xu.jpg",
-		"songs": [
-            "Baja California",
-            "Oh qué sera",
-            "De bi ti rar mas fotós"
+        
+		"songs": [ {
+            "Image": "img/rauw.jpeg",
+            "Name": "Diluvio",
+            "Author": "Rauw Alejandro",
+            "Album": "Cosa Nuestra"
+            },
+            {
+            "Image": "img/Mr._Money_with_the_Vibe.jpg",
+            "Name": "Terminator",
+            "Author": "Asake",
+            "Album": "Mr Money with the vibe"  
+            },
+            {
+            "Image": "img/Davido_ 5ive.webp",
+            "Name": "CFMF",
+            "Author": "davido",
+            "Album": "5ive"
+            }
         ]
     }
 ];

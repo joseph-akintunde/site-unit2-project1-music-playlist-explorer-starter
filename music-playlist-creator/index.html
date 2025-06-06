@@ -15,44 +15,46 @@
         <h1>Music Playlist Explorer</h1>
         <nav>
             <ul>
-                <li a="#">Featured</li>
-                <li a="#">All</li>
+                <button onclick="music-playlist-creator/featured.html"><li><a href="music-playlist-creator/featured.html"></a></li>Featured</li></button>
+                <button onclick="music-playlist-creator/index.html"><li a="#">All</li></button>
             </ul>
         </nav>
     </header>
+
     <div id="festivalModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <section id="modal-header">
-                <!-- <div id="creatorIdentification">
-                     <img id="fest" src="img/speech-bubble-message-box-vector-23383460.jpg" alt="">
-                     <p>Playlist Name</p>
-                     <p>Creator Name</p>
-                </div> -->
-                <button id="shuffle-btn">Shuffle</button>
-                <div class="songList">
-                    <!-- <div class="songItem">
-                        <img src="img/speech-bubble-message-box-vector-23383460.jpg" alt="">
-                        <p>Song Title</p>
-                        <p>Artist Name</p>
-                        <p>Album Name</p>
-                    </div> -->
-                    <div class="songItem">
-                        <!-- <img src="img/speech-bubble-message-box-vector-23383460.jpg" alt="">
-                        <p>Song Title</p>
-                        <p>Artist Name</p>
-                        <p>Album Name</p> -->
-                    </div>
-                    <div class="songItem">
-                        <!-- <img src="img/speech-bubble-message-box-vector-23383460.jpg" alt="">
-                        <p>Song Title</p>
-                        <p>Artist Name</p>
-                        <p>Album Name</p> -->
-                    </div>
+            <section class="modal-header">
+                <div id="creatorIdentification">
+                     <img id="fest" src="" alt="">
+                     <p></p>
+                     <p></p>
                 </div>
-         
+                <button class="shuffle-btn">Shuffle</button>
+                <div id="songList" class="songList"></div>
+                <!-- <div class="songList">
+                    <div class="songItem">
+                        <img src="" alt="">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="songItem">
+                        <img src="" alt="">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="songItem">
+                        <img src="" alt="">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div> -->
+                </section>
+         <!-- <button id="love"></button> -->
             </div>
-            </section>
+        </div>
 
     </div>
     <section id="playlist-cards">

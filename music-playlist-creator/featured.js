@@ -38,7 +38,8 @@ function renderFeaturedPlaylist(playlist){
             <img src="${song.Image}" class = "songArt"/>
             <p>${song.Name}</p>
             <p>${song.Author}</p>
-            <p>${song.Album}</p>    
+            <p>${song.Album}</p> 
+            <p>${song.Duration}</p>  
     `).join("")}
     </div>
     `}

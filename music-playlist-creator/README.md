@@ -6,7 +6,7 @@ Submitted by: Joseph Akintunde
 
 Estimated time spent: 25 hours
 
-Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
+Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://site-unit2-project1-music-playlist-opdk.onrender.com/index.html)
 
 ### Application Features
 
@@ -18,7 +18,7 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
     - [x] Playlist images should be reasonably sized (at least 6 playlists on your laptop when full screen; large enough that the playlist components detailed in the next feature are legible).
   - [x] Fetch data from a provided Javascript file and use it to create interactive playlist tiles.
 
-- [ x] **Playlist Components**
+- [x] **Playlist Components**
   - [x] Each tile should display the playlist's:
     - [x] Cover image
     - [x] Name
@@ -50,7 +50,7 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
     - [x] If previously liked:
       - [x] The like count on the playlist tile should decrease by 1.
       - [x] There should be visual feedback (such as the heart turning a different color) to show that the playlist has been unliked by the user.
-    - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please film yourself liking and unliking:
+    - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please film yourself liking and unliking:
       - [ ] a playlist with a like count of 0
       - [x] a playlist with a non-zero like count
 
@@ -161,4 +161,4 @@ Getting some of the requirements felt good as this was my first experience. I di
 
 ### Shout out
 
-shout out to Ms. Ebony, Ms. V, Paulo, Tom, Matthew, Noble, Joie, Brianna, and Reena.
+shout out to Ms. Ebony, Ms. V, Paulo, Tom, Matthew, Noble, Yaw, Joie, Brianna, and Reena.
